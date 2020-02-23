@@ -1,0 +1,1 @@
+mean_ax,mean_ay,mean_az,mean_gx,mean_gy,mean_gz,sd_ax,sd_ay,sd_az,sd_gx,sd_gy,sd_gz,min_ax,min_ay,min_az,min_gx,min_gy,min_gz,max_ax,max_ay,max_az,max_gx,max_gy,max_gz,var_ax,var_ay,var_az,var_gx,var_gy,var_gz,quant1_ax,quant1_ay,quant1_az,quant1_gx,quant1_gy,quant1_gz,mad_ax,mad_ay,mad_az,mad_gx,mad_gy,mad_gz,latitude,longitude,mean_speed
