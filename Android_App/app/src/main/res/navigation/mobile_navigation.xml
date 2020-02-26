@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_reports">
+
+    <fragment
+        android:id="@+id/nav_driving"
+        android:name="com.example.sih2.ui.driving.DrivingFragment"
+        android:label="@string/menu_driving"
+        tools:layout="@layout/fragment_driving" />
+
+    <fragment
+        android:id="@+id/nav_pedestrian"
+        android:name="com.example.sih2.ui.pedestrian.PedestrianFragment"
+        android:label="@string/menu_pedestrian"
+        tools:layout="@layout/fragment_pedestrian" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.sih2.ui.reports.ReportsFragment"
+        android:label="@string/menu_reports"
+        tools:layout="@layout/fragment_reports" />
+</navigation>

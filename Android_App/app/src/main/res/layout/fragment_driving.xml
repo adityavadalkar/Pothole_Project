@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1919">
+
+    <TextView
+        android:id="@+id/accx"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Accl"
+        app:layout_constraintStart_toEndOf="@+id/Accl" />
+
+    <TextView
+        android:id="@+id/accy"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/accx"
+        app:layout_constraintStart_toEndOf="@+id/accx" />
+
+    <TextView
+        android:id="@+id/accz"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/accy"
+        app:layout_constraintStart_toEndOf="@+id/accy" />
+
+    <TextView
+        android:id="@+id/gyrox"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FDFFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Gyro"
+        app:layout_constraintStart_toEndOf="@+id/Gyro" />
+
+    <TextView
+        android:id="@+id/gyroy"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FDFFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/gyrox"
+        app:layout_constraintStart_toEndOf="@+id/gyrox" />
+
+    <TextView
+        android:id="@+id/gyroz"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FDFFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/gyroy"
+        app:layout_constraintStart_toEndOf="@+id/gyroy" />
+
+    <TextView
+        android:id="@+id/Accl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Accelerometer"
+        android:textColor="#ECEFF1"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#0F0F0F"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_start" />
+
+    <TextView
+        android:id="@+id/Gyro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Gyroscope"
+        android:textColor="#FDFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Accl" />
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/loc"
+        app:layout_constraintStart_toEndOf="@+id/loc" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Locn"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gyro" />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lon"
+        app:layout_constraintStart_toEndOf="@+id/lon" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="59dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="16dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Speed"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loc" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="409dp"
+        android:layout_height="508dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ssmap" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Start Reporting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Stop Reporting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "341387930000",
+    "firebase_url": "https://blitztech-f41ff.firebaseio.com",
+    "project_id": "blitztech-f41ff",
+    "storage_bucket": "blitztech-f41ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341387930000:android:e69a483982b2b89a856b15",
+        "android_client_info": {
+          "package_name": "com.example.sih2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341387930000-qvt7duisvpl7ctqia3sgqec3sn71m7dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sih2",
+            "certificate_hash": "5217db8d0ad91ee1c0e54d1c2a212f33a7c7628b"
+          }
+        },
+        {
+          "client_id": "341387930000-jvqrhiifp9secp2g1ed8vlu1iimcnl8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX3-tlsKz7Tlz92pNuxZHmlFhS8tFsJ68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341387930000-jvqrhiifp9secp2g1ed8vlu1iimcnl8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
